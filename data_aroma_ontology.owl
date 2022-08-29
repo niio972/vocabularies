@@ -19,7 +19,7 @@
     <owl:Ontology rdf:about="http://opendata.inrae.fr/owsd">
         <owl:versionIRI rdf:resource="http://opendata.inrae.fr/owsd/1.0"/>
         <omv:URI rdf:resource="http://opendata.inrae.fr/owsd"/>
-        <omv:creationDate>2020/09/01</omv:creationDate>
+        <dct:date>2020/09/01</dct:date>
         <omv:designedForOntologyTask>Application Task</omv:designedForOntologyTask>
         <omv:designedForOntologyTask>Integration Task</omv:designedForOntologyTask>
         <omv:hasFormalityLevel>Ontology</omv:hasFormalityLevel>
