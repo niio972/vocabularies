@@ -35,6 +35,7 @@
         <dc:creator>Soline CAILLE</dc:creator>
         <dc:format>application/rdf+xml</dc:format>
         <dc:publisher>INRAE (http://www.inrae.fr/)</dc:publisher>
+        <dc:identifier>http://opendata.inrae.fr/owsd</dc:identifier>
         <dc:title xml:lang="fr">Ontologie pour la gestion des descripteurs d&apos;analyse sensorielle du vin</dc:title>
         <dc:title xml:lang="en">Ontology for the management of Wine Sensory analysis Descriptors</dc:title>
         <dct:alternative>OWSD</dct:alternative>
