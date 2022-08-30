@@ -24,9 +24,9 @@
         <omv:designedForOntologyTask>Integration Task</omv:designedForOntologyTask>
         <omv:hasFormalityLevel>Ontology</omv:hasFormalityLevel>
         <omv:isOfType>Ontology Metadata Vocabulary</omv:isOfType>
-        <omv:keywords>aromas</omv:keywords>
-        <omv:keywords>sensory analysis</omv:keywords>
-        <omv:keywords>wine</omv:keywords>
+        <dc:subject>aromas</dc:subject>
+        <dc:subject>sensory analysis</dc:subject>
+        <dc:subjects>wine</dc:subjects>
         <dc:creator>Alain SAMSON</dc:creator>
         <dc:creator>Arnaud CHARLEROY</dc:creator>
         <dc:creator>Coraline DAMASIO</dc:creator>
@@ -38,8 +38,8 @@
         <dc:title xml:lang="fr">Ontologie pour la gestion des descripteurs d&apos;analyse sensorielle du vin</dc:title>
         <dc:title xml:lang="en">Ontology for the management of Wine Sensory analysis Descriptors</dc:title>
         <dct:alternative>OWSD</dct:alternative>
-        <dct:description xml:lang="fr">Les descripteurs d&apos;analyse sensorielle du vin, une nouvelle ontologie, décrit une liste de classes utilisées pour classer les descripteurs sensoriels (instances).</dct:description>
-        <dct:description xml:lang="en">The Wine Sensory analysis Descriptors, a new ontology   describes a list of classes used to classify sensorial descriptors (instances).</dct:description>
+        <dct:description xml:lang="fr">Les descripteurs d&apos;analyse sensorielle du vin, une nouvelle ontologie, décrit une liste de groupes de descripteurs (classes) utilisés pour classer les descripteurs sensoriels (instances).</dct:description>
+        <dct:description xml:lang="en">The Wine Sensory analysis Descriptors, a new ontology describes a list of descriptors groups (classes) used to classify sensorial descriptors (instances).</dct:description>
         <dct:language>eng</dct:language>
         <dct:language>fra</dct:language>
         <dct:license>https://www.etalab.gouv.fr/licence-ouverte-open-licence</dct:license>
