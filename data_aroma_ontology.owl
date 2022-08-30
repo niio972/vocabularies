@@ -17,7 +17,126 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:void="http://rdfs.org/ns/void#">
     <owl:Ontology rdf:about="http://opendata.inrae.fr/owsd">
-        <owl:versionIRI rdf:resource="http://opendata.inrae.fr/owsd/1.0"/>
+     <omv:hasOntologyLanguage/>OWL<omv:hasOntologyLanguage/>
+    <foaf:homepage rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <omv:URI rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <omv:naturalLanguage rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+    <omv:naturalLanguage rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+    <omv:documentation rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <omv:version/>1<omv:version/>
+    <omv:description/>Les descripteurs d'analyse sensorielle du vin, une nouvelle ontologie, décrit une liste de groupes de descripteurs (classes) utilisés pour classer les descripteurs sensoriels (instances)., The Wine Sensory analysis Descriptors, a new ontology describes a list of descriptors groups (classes) used to classify sensorial descriptors (instances).<omv:description/>
+    <omv:status/>alpha<omv:status/>
+    <omv:creationDate/>2020-12-17T09:22:44+01:00<omv:creationDate/>
+    <dct:date/>2020-09-01T00:00:00+00:00<dct:date/>
+    <omv:numberOfClasses/>70<omv:numberOfClasses/>
+    <omv:numberOfIndividuals/>263<omv:numberOfIndividuals/>
+    <omv:numberOfProperties/>2<omv:numberOfProperties/>
+    <omv:modificationDate/>2022-08-30T00:00:00+00:00<omv:modificationDate/>
+    <void:entities/>335<void:entities/>
+    <omv:numberOfAxioms/>1689<omv:numberOfAxioms/>
+    <omv:keyClasses/>http://opendata.inrae.fr/owsd#gustatory, http://opendata.inrae.fr/owsd#olfactory, http://opendata.inrae.fr/owsd#unclassified, http://opendata.inrae.fr/owsd#visual,  http://opendata.inrae.fr/owsd#perception<omv:keyClasses/>
+    <omv:keywords/>aromas, wine, sensory analysis<omv:keywords/>
+    <omv:knownUsage/>Cette classification est utilisée pour organiser les descripteurs œnologiques à l'INRAE (centre Montpellier).<omv:knownUsage/>
+    <omv:conformsToKnowledgeRepresentationParadigm/>First Order Logic<omv:conformsToKnowledgeRepresentationParadigm/>
+    <omv:hasContributor/>Coraline DAMASIO, Soline CAILLE, Alain SAMSON, Min Young YANG<omv:hasContributor/>
+    <omv:hasCreator/>Arnaud CHARLEROY, Pascal NEVEU<omv:hasCreator/>
+    <omv:designedForOntologyTask rdf:resource="http://omv.ontoware.org/2005/05/ontology#IntegrationTask"/>
+    <omv:designedForOntologyTask/>http://omv.ontoware.org/2005/05/ontology#IntegrationTask,Application Task<omv:designedForOntologyTask/>
+    <prov:wasGeneratedBy/>Arnaud Charleroy, Pascal Neveu<prov:wasGeneratedBy/>
+    <prov:wasInvalidatedBy/>None<prov:wasInvalidatedBy/>
+    <pav:curatedBy/>Arnaud Charleroy<pav:curatedBy/>
+    <omv:endorsedBy/>INRAE (http://www.inrae.fr/)<omv:endorsedBy/>
+    <foaf:fundedBy/>INRAE (http://www.inrae.fr/)<foaf:fundedBy/>
+    <schema:translator/>Coraline Damasio<schema:translator/>
+    <omv:hasDomain/>Winemaking,http://data.agroportal.lirmm.fr/categories/TECH<omv:hasDomain/>
+    <omv:hasDomain rdf:resource="http://data.agroportal.lirmm.fr/categories/TECH"/>
+    <omv:hasFormalityLevel rdf:resource="http://w3id.org/nkos/nkostype#classification_schema"/>
+    <omv:hasLicense rdf:resource="https://www.etalab.gouv.fr/licence-ouverte-open-licence"/>
+    <omv:hasOntologySyntax/>application/rdf+xml<omv:hasOntologySyntax/>
+    <omv:isOfType/>Ontology Metadata Vocabulary<omv:isOfType/>
+    <omv:usedOntologyEngineeringMethodology/>None<omv:usedOntologyEngineeringMethodology/>
+    <omv:usedOntologyEngineeringTool rdf:resource="http://protege.stanford.edu"/>
+    <omv:hasPriorVersion rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <owl:deprecated/>false<owl:deprecated/>
+    <owl:versionIRI rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <door:comesFromTheSameDomain rdf:resource="http://data.agroportal.lirmm.fr/ontologies/FLAIR"/>
+    <door:similarTo rdf:resource="http://data.agroportal.lirmm.fr/ontologies/FLAIR"/>
+    <door:hasDisparateModelling rdf:resource="http://data.agroportal.lirmm.fr/ontologies/FLAIR"/>
+    <dct:coverage/>Winemaking in France<dct:coverage/>
+    <dct:publisher/>INRAE (http://www.inrae.fr/)<dct:publisher/>
+    <dct:identifier rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <dct:source/>None<dct:source/>
+    <dct:abstract/>The Wine Sensory analysis Descriptors, a new ontology describes a list of descriptors groups (classes) used to classify sensorial descriptors (instances).<dct:abstract/>
+    <dct:alternative/>None<dct:alternative/>
+    <dct:audience/>IT Developpers, Winemakers, Scientific researchers<dct:audience/>
+    <dct:valid/>2050-08-31T00:00:00+00:00<dct:valid/>
+    <dct:accrualMethod/>Contributors meet to decide how to curated the ontology content and description<dct:accrualMethod/>
+    <dct:accrualPeriodicity/>To be defined<dct:accrualPeriodicity/>
+    <dct:accrualPolicy/>Editing with experts and then validation (publication)<dct:accrualPolicy/>
+    <sd:endpoint rdf:resource="http://sparql.agroportal.lirmm.fr"/>
+    <void:dataDump rdf:resource="http://data.agroportal.lirmm.fr/ontologies/OWSD/download?download_format=rdf"/>
+    <metadata:csvDump rdf:resource="http://data.agroportal.lirmm.fr/ontologies/OWSD/download?download_format=csv"/>
+    <void:openSearchDescription rdf:resource="http://data.agroportal.lirmm.fr/search?ontologies=OWSD&q="/>
+    <void:uriLookupEndpoint rdf:resource="http://data.agroportal.lirmm.fr/search?ontologies=OWSD&require_exact_match=true&q="/>
+    <void:uriRegexPattern/>local:None<void:uriRegexPattern/>
+    <foaf:depiction/>local:None<foaf:depiction/>
+    <foaf:logo/>local:None<foaf:logo/>
+    <mod:competencyQuestion/>What are the aromas associated to a specific wine ?
+
+I want to know which judges have the most consistent tastes
+I want to know which flavors are easier to discern by the judges
+Can I identify differences in aromas between two wines?<mod:competencyQuestion/>
+    <voaf:metadataVoc rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
+    <voaf:metadataVoc rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <voaf:metadataVoc rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    <voaf:metadataVoc rdf:resource="http://rdfs.org/ns/void#"/>
+    <voaf:metadataVoc rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+    <voaf:metadataVoc rdf:resource="http://purl.org/dc/elements/1.1/"/>
+    <voaf:metadataVoc rdf:resource="http://omv.ontoware.org/2005/05/ontology#"/>
+    <voaf:metadataVoc rdf:resource="http://purl.org/dc/terms"/>
+    <voaf:metadataVoc rdf:resource="http://purl.org/pav/"/>
+    <voaf:toDoList/>Add informations in order to use descriptors in differents country (Extension of the ontology by adding location property to aromas instances)<voaf:toDoList/>
+    <vann:example rdf:resource="http://vine2wine.bigdatagrapes.eu/"/>
+    <vann:preferredNamespaceUri rdf:resource="http://opendata.inrae.fr/owsd"/>
+    <vann:preferredNamespacePrefix/>owsd<vann:preferredNamespacePrefix/>
+    <cc:morePermissions/>None<cc:morePermissions/>
+    <cc:useGuidelines/>None<cc:useGuidelines/>
+    <pav:curatedOn/>2020-12-30T00:00:00+00:00<pav:curatedOn/>
+    <doap:repository rdf:resource="http://agroportal.lirmm.fr/ontologies/OWSD"/>
+    <doap:bugDatabase/>local:None<doap:bugDatabase/>
+    <doap:mailingList/>local:arnaud.charleroy@inrae.fr<doap:mailingList/>
+    <idot:exampleIdentifier rdf:resource="http://opendata.inrae.fr/owsd#yeast_sf_o"/>
+    <schema:award/>None<schema:award/>
+    <schema:copyrightHolder/>INRAE (http://www.inrae.fr/)<schema:copyrightHolder/>
+    <schema:associatedMedia/>None<schema:associatedMedia/>
+    <schema:includedInDataCatalog rdf:resource="http://agroportal.lirmm.fr/"/>
+    <dc:subject>aromas</dc:subject>
+    <dc:subject>sensory analysis</dc:subject>
+    <dc:subjects>wine</dc:subjects>
+    <dc:creator>Alain SAMSON</dc:creator>
+    <dc:creator>Arnaud CHARLEROY</dc:creator>
+    <dc:creator>Coraline DAMASIO</dc:creator>
+    <dc:creator>Min Young YANG</dc:creator>
+    <dc:creator>Pascal NEVEU</dc:creator>
+    <dc:creator>Soline CAILLE</dc:creator>
+    <dc:format>application/rdf+xml</dc:format>
+    <dc:publisher>INRAE (http://www.inrae.fr/)</dc:publisher>
+    <dc:identifier>http://opendata.inrae.fr/owsd</dc:identifier>
+    <dc:title xml:lang="fr">Ontologie pour la gestion des descripteurs d&apos;analyse sensorielle du vin</dc:title>
+    <dc:title xml:lang="en">Ontology for the management of Wine Sensory analysis Descriptors</dc:title>
+    <dct:alternative>OWSD</dct:alternative>
+    <dct:description xml:lang="fr">Les descripteurs d&apos;analyse sensorielle du vin, une nouvelle ontologie, décrit une liste de groupes de descripteurs (classes) utilisés pour classer les descripteurs sensoriels (instances).</dct:description>
+    <dct:description xml:lang="en">The Wine Sensory analysis Descriptors, a new ontology describes a list of descriptors groups (classes) used to classify sensorial descriptors (instances).</dct:description>
+    <dct:language>eng</dct:language>
+    <dct:language>fra</dct:language>
+    <dct:license>https://www.etalab.gouv.fr/licence-ouverte-open-licence</dct:license>
+    <pav:version rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</pav:version>
+    <void:sparqlEndpoint>http://sparql.agroportal.lirmm.fr</void:sparqlEndpoint>
+    <dcat:contactPoint>arnaud.charleroy@inrae.fr</dcat:contactPoint>
+    <foaf:fundedBy>INRAE (http://www.inrae.fr/)</foaf:fundedBy>
+    <foaf:maker>INRAE MISTEA (https://www6.montpellier.inrae.fr/mistea/)</foaf:maker> -->
+ 
+        <!-- <owl:versionIRI rdf:resource="http://opendata.inrae.fr/owsd/1.0"/>
         <omv:URI rdf:resource="http://opendata.inrae.fr/owsd"/>
         <dc:date>2020/09/01</dc:date>
         <omv:designedForOntologyTask>Application Task</omv:designedForOntologyTask>
@@ -48,8 +167,8 @@
         <void:sparqlEndpoint>http://sparql.agroportal.lirmm.fr</void:sparqlEndpoint>
         <dcat:contactPoint>arnaud.charleroy@inrae.fr</dcat:contactPoint>
         <foaf:fundedBy>INRAE (http://www.inrae.fr/)</foaf:fundedBy>
-        <foaf:maker>INRAE MISTEA (https://www6.montpellier.inrae.fr/mistea/)</foaf:maker>
-    </owl:Ontology>
+        <foaf:maker>INRAE MISTEA (https://www6.montpellier.inrae.fr/mistea/)</foaf:maker> -->
+</owl:Ontology>
     
 
 
